@@ -30,7 +30,7 @@ else:
 class Logger(object):
     def __init__(self):
         self.terminal = sys.stdout
-        self.log = open("logfile.log", "a")
+        self.log = open("logfile.log", "a", encoding='utf-8')
 
     def log(self, header, text):
         lText = text.split('\n')
@@ -49,6 +49,9 @@ class Logger(object):
         pass
 
 
+sys.stdout = Logger()
+
+
 class Message(object):
 
     def __init__(self, name):
@@ -63,9 +66,12 @@ class Message(object):
 
 class ProtocolMessage(Message):
 
-    def __init__(self, message, length):
+    def __init__(self, message, length, content=None):
         Message.__init__(self, message)
         self.length = length
+        self.content = content
+
+
 
     def __str__(self):
         return '<{0}>(L={1})'.format(self.getName(), self.length)
@@ -263,9 +269,8 @@ class ProtocolAgent(Agent):
         self.log(f'Adding message <{format(message.getName())}> to transmission queue')
 
         # add message to transmission queue\
-        # print("self.scheduler.getTime()", self.scheduler.getTime())
+
         self.txQueue.append((message, receiver, self.scheduler.getTime()))
-        # print("self.scheduler.getTime()2", self.scheduler.getTime())
         # detect message congestion
         if len(self.txQueue):
             times = [m[2] for m in self.txQueue]
@@ -322,12 +327,10 @@ class GenericClientServerAgent(ProtocolAgent):
         # the number of transmissions for each flight (one entry per flight)
         self.nTx = [0] * len(self.flights)
 
-        self.detectRT = [0] * len(self.flights)
-
         # keep track of the number of times messages have been received
         self.nRx = [[0] * len(flight) for flight in self.flights]
 
-        # keep track the out of order delivery for messages of that patricular flight
+        # keep track the out of order delivery for messages of that particular flight
         self.oOd = [[0] * len(flight) for flight in self.flights]
 
         # keep track of the index of expected message for out of order delivery detection in receive func
@@ -376,11 +379,22 @@ class GenericClientServerAgent(ProtocolAgent):
         else:
             return
         if self.isTXFlight(self.currentFlight):
-            self.log('Ready to transmit flight #{0}' \
-                     .format(self.currentFlight + 1))
+            self.log(f'Ready to transmit flight #{format(self.currentFlight + 1)}')
         else:
-            self.log('Ready to receive flight #{0}' \
-                     .format(self.currentFlight + 1))
+            self.log(f'Ready to receive flight #{format(self.currentFlight + 1)}')
+
+
+    def transmitACK(self, flight, ack):
+        RTO = None
+        strRTO = ''
+        if (flight + 1) < len(self.flights):
+            RTO = self.getTimeout(0)
+            if RTO is not None:
+                strRTO = ', RTO = {0:>.1f}s'.format(RTO)
+                self.scheduler.registerEventRel(Callback(
+                    self.checkFlight, flight=flight), RTO)
+
+        self.addMsgToTxQueue(ack)
 
     def transmitFlight(self, flight):
 
@@ -438,9 +452,6 @@ class GenericClientServerAgent(ProtocolAgent):
         if doRetransmit:
             # retransmit
             self.transmitFlight(flight)
-#            self.oOd[flight + 1] = [0] * len(self.oOd[flight + 1])
-            self.log(TextFormatter.makeBoldPurple('Guys This is where '
-                                                  'Retransmission Occurs(Inverse Peer)'))
 
     def receive(self, message, sender):
         ProtocolAgent.receive(self, message, sender)
@@ -488,12 +499,75 @@ class GenericClientServerAgent(ProtocolAgent):
             # Just ignore it
             return
 
+        approach = 2
+        ####For Approach 2 or Approach #1###########
+        self.expectedMesInd = 0
+        print(f'self.nRx before this reception is {self.nRx[expectedFlight]}')
+        if approach == 2:
+            for i in range(len(self.nRx[expectedFlight])):
+                if self.nRx[expectedFlight][i] == 0:
+                    break
+            self.expectedMesInd = i
+        elif approach == 1:
+            for i in range(len(self.nRx[expectedFlight])-1, -1, -1):
+                if i == len(self.nRx[expectedFlight]) - 1:#analyze the last index in list seperately
+                    if self.nRx[expectedFlight][i] >= 1:
+                        self.expectedMesInd = -1
+                        break
+                else:
+                    if self.nRx[expectedFlight][i] >= 1:
+                        self.expectedMesInd = i+1
+                        break
+        print(f'Messages in order are:{expectedMsgs}')
+        print(f'The expected Message Index before this reception for Approach #{approach} is {self.expectedMesInd}')
+
+
+
+
+
+
+
         # update reception tracker
         msgIndex = expectedMsgs.index(message.getName())
         self.nRx[expectedFlight][msgIndex] += 1
         self.oOd[expectedFlight][msgIndex] += 1
-        self.expectedMesInd += 1
         self.tRx[expectedFlight][msgIndex] += [self.scheduler.getTime()]
+        print(f'self.nRx after this reception is {self.nRx[expectedFlight]}')
+
+
+        ACK = []
+        ackIndex = []
+        if msgIndex != self.expectedMesInd and self.expectedMesInd != -1:
+            for i in range(len(self.flights[expectedFlight])):
+                if self.nRx[expectedFlight][i] > 0:
+                    ACK = ACK + [expectedMsgs[i]]
+                    ackIndex = ackIndex + [i]
+#                elif self.nRx[expectedFlight][i] == -1:
+#                    ACK = ACK + [expectedMsgs[-1]]
+        print(f'ACK :{ACK}\n msgIndex :{msgIndex} ---self.expectedMesInd :{self.expectedMesInd}')
+        if ACK:
+            ack_ProtocolMes = ProtocolMessage('ACK', 20, content=ackIndex)
+            self.transmitACK(self.currentFlight, ack_ProtocolMes)
+
+        # # register a callback for reception after <duration>
+        # self.scheduler.registerEventRel(Callback(receiver.receive,
+        #                                          message=message, sender=sender), duration,
+        #                                 Medium.priorityReceive)
+        # self.scheduler.registerEventRel(Callback(
+        #     self.checkFlight, flight=flight), RTO)
+#           def registerEventRel(self, event, time, priority=0):
+            #self.scheduler.registerEventRel()
+            # self.transmitFlight(self.currentFlight)
+
+
+#            def registerEventRel(self, event, time, priority=0):
+#                return self.registerEventAbs(event, self.time + time, priority)
+
+
+        if message.getName == ACK:
+            print(f'message Length is {message.getLength}')
+
+
 
         # keep track of receptions of second-to-last flight
         if len(self.flights) > 1 and (expectedFlight + 2) == len(self.flights):
@@ -517,22 +591,6 @@ class GenericClientServerAgent(ProtocolAgent):
                                      for i in range(len(expectedMsgs))
                                      if self.nRx[self.currentFlight][i] == 0])
                 self.log(f'Messages still missing from flight #{self.currentFlight + 1}: {missing}')
-                ackknowledgement = [expectedMsgs[i] for i in range(len(expectedMsgs)) if
-                                    self.nRx[self.currentFlight][i] == 0]
-                # Detect the message out of order delivery
-                outOfOrderDelivery = False
-                if max([0.5] + self.oOd[expectedFlight][msgIndex + 1::] + [0.5]) > 0.5 or \
-                        min([0.5] + self.oOd[expectedFlight][0:msgIndex] + [0.5]) == 0:
-                    self.log(TextFormatter.makeBoldCyan(' #Now I would send an ACK #'))
-                    outOfOrderDelivery = True
-                    self.log(
-                        f'{[expectedMsgs[i] for i in range(msgIndex + 1) if self.oOd[expectedFlight][i] == 0]}'
-                        f' is missing')
-                    self.log(
-                        f'{[expectedMsgs[i] for i in range(msgIndex + 1) if self.oOd[expectedFlight][i] > 0]}'
-                        f' is received')
-                    print("HOPPAaaaaaa")
-
 
 
         elif self.isTXFlight(self.currentFlight):
@@ -649,7 +707,6 @@ class Medium(LoggingClient):
         self.usage[agent.getName()] = float(duration) + \
                                       self.usage.get(agent.getName(), 0.)
 
-
     def getUsage(self, agent=None):
         if agent is None:
             return self.usage
@@ -699,7 +756,6 @@ class Medium(LoggingClient):
             return 0.
 
     def initiateMsgTX(self, message, sender, receiver=None):
-
         # make sender an agent object instance
         if isinstance(sender, str):
             sender, p_sender = self.agents[sender]
@@ -758,10 +814,10 @@ class Medium(LoggingClient):
 
     def dispatchMsg(self, message, sender, receiver, loss_prop, duration):
 
-        ozgur = self.agents.get(receiver.getName())[0] #global receiver agent
-        if sender.nTx[sender.currentFlight - 1] != sender.detectRT[sender.currentFlight - 1]:
-            receiver.oOd[receiver.currentFlight] = [0] * len(receiver.oOd[receiver.currentFlight])
-            sender.detectRT[sender.currentFlight - 1] = sender.nTx[sender.currentFlight - 1]
+        # ozgur = self.agents.get(receiver.getName())[0]  # global receiver agent
+        # if sender.nTx[sender.currentFlight - 1] != sender.detectRT[sender.currentFlight - 1]:
+        #     receiver.oOd[receiver.currentFlight] = [0] * len(receiver.oOd[receiver.currentFlight])
+        #     sender.detectRT[sender.currentFlight - 1] = sender.nTx[sender.currentFlight - 1]
 
         # handle random message loss according to loss_prop
         if loss_prop is None or random.random() >= loss_prop:
@@ -777,9 +833,10 @@ class Medium(LoggingClient):
                 print(self.agents.get(receiver.getName())[0].oOd)
         # Show lost messages only for normal receivers
         elif not receiver.getName().startswith('.'):
-            self.log(TextFormatter.makeBoldRed(('Lost message <{2}> sent' +
-                                                ' from {0} to {1}').format(sender.getName(),
-                                                                           receiver.getName(), message.getName())))
+            self.log(TextFormatter.makeBoldRed(
+                f'Lost message <{format(message.getName())}> sent from '
+                f'{format(sender.getName())} to {format(receiver.getName())}'))
+
 
 
 class TextFormatter(object):

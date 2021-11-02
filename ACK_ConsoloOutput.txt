@@ -1,0 +1,1505 @@
+C:\Users\werts\AppData\Local\Programs\Python\Python39\python.exe "C:\Program Files\JetBrains\PyCharm 2021.2.1\plugins\python\helpers\pydev\pydevconsole.py" --mode=client --port=55787
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['C:\\Users\\werts\\Ozgur_Germany\\Offenburg_Courses_CME-2\\EmbeddedSYstems\\Project\\Project_Code\\ozgur\\Ozgur-develop', 'C:/Users/werts/Ozgur_Germany/Offenburg_Courses_CME-2/EmbeddedSYstems/Project/Project_Code/ozgur/Ozgur-develop'])
+PyDev console: starting.
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+runfile('C:/Users/werts/Ozgur_Germany/Offenburg_Courses_CME-2/EmbeddedSYstems/Project/Project_Code/ozgur/Ozgur-develop/main.py', wdir='C:/Users/werts/Ozgur_Germany/Offenburg_Courses_CME-2/EmbeddedSYstems/Project/Project_Code/ozgur/Ozgur-develop')
+Unsegmentized
+                   ClientHello --->                               
+                               <--- ServerHello                   
+                               <--- Certificate                   
+                               <--- ServerKeyExchange             
+                               <--- CertificateRequest            
+                               <--- ServerHelloDone               
+                   Certificate --->                               
+             ClientKeyExchange --->                               
+             CertificateVerify --->                               
+              ChangeCipherSpec --->                               
+                      Finished --->                               
+                               <--- ChangeCipherSpec              
+                               <--- Finished                      
+Segmentized
+              ClientHello.seg0 --->                               
+                               <--- ACK.ClientHello.seg0          
+              ClientHello.seg1 --->                               
+                               <--- ACK.ClientHello.seg1          
+              ClientHello.seg2 --->                               
+                               <--- ACK.ClientHello.seg2          
+              ClientHello.last --->                               
+                               <--- ServerHello.seg0              
+          ACK.ServerHello.seg0 --->                               
+                               <--- ServerHello.seg1              
+          ACK.ServerHello.seg1 --->                               
+                               <--- ServerHello.seg2              
+          ACK.ServerHello.seg2 --->                               
+                               <--- ServerHello.seg3              
+          ACK.ServerHello.seg3 --->                               
+                               <--- ServerHello.last              
+                               <--- Certificate.seg0              
+          ACK.Certificate.seg0 --->                               
+                               <--- Certificate.seg1              
+          ACK.Certificate.seg1 --->                               
+                               <--- Certificate.seg2              
+          ACK.Certificate.seg2 --->                               
+                               <--- Certificate.seg3              
+          ACK.Certificate.seg3 --->                               
+                               <--- Certificate.seg4              
+          ACK.Certificate.seg4 --->                               
+                               <--- Certificate.seg5              
+          ACK.Certificate.seg5 --->                               
+                               <--- Certificate.seg6              
+          ACK.Certificate.seg6 --->                               
+                               <--- Certificate.seg7              
+          ACK.Certificate.seg7 --->                               
+                               <--- Certificate.seg8              
+          ACK.Certificate.seg8 --->                               
+                               <--- Certificate.seg9              
+          ACK.Certificate.seg9 --->                               
+                               <--- Certificate.seg10             
+         ACK.Certificate.seg10 --->                               
+                               <--- Certificate.seg11             
+         ACK.Certificate.seg11 --->                               
+                               <--- Certificate.seg12             
+         ACK.Certificate.seg12 --->                               
+                               <--- Certificate.seg13             
+         ACK.Certificate.seg13 --->                               
+                               <--- Certificate.seg14             
+         ACK.Certificate.seg14 --->                               
+                               <--- Certificate.seg15             
+         ACK.Certificate.seg15 --->                               
+                               <--- Certificate.seg16             
+         ACK.Certificate.seg16 --->                               
+                               <--- Certificate.seg17             
+         ACK.Certificate.seg17 --->                               
+                               <--- Certificate.seg18             
+         ACK.Certificate.seg18 --->                               
+                               <--- Certificate.seg19             
+         ACK.Certificate.seg19 --->                               
+                               <--- Certificate.seg20             
+         ACK.Certificate.seg20 --->                               
+                               <--- Certificate.seg21             
+         ACK.Certificate.seg21 --->                               
+                               <--- Certificate.seg22             
+         ACK.Certificate.seg22 --->                               
+                               <--- Certificate.seg23             
+         ACK.Certificate.seg23 --->                               
+                               <--- Certificate.seg24             
+         ACK.Certificate.seg24 --->                               
+                               <--- Certificate.seg25             
+         ACK.Certificate.seg25 --->                               
+                               <--- Certificate.seg26             
+         ACK.Certificate.seg26 --->                               
+                               <--- Certificate.seg27             
+         ACK.Certificate.seg27 --->                               
+                               <--- Certificate.seg28             
+         ACK.Certificate.seg28 --->                               
+                               <--- Certificate.seg29             
+         ACK.Certificate.seg29 --->                               
+                               <--- Certificate.seg30             
+         ACK.Certificate.seg30 --->                               
+                               <--- Certificate.seg31             
+         ACK.Certificate.seg31 --->                               
+                               <--- Certificate.seg32             
+         ACK.Certificate.seg32 --->                               
+                               <--- Certificate.seg33             
+         ACK.Certificate.seg33 --->                               
+                               <--- Certificate.seg34             
+         ACK.Certificate.seg34 --->                               
+                               <--- Certificate.seg35             
+         ACK.Certificate.seg35 --->                               
+                               <--- Certificate.seg36             
+         ACK.Certificate.seg36 --->                               
+                               <--- Certificate.seg37             
+         ACK.Certificate.seg37 --->                               
+                               <--- Certificate.last              
+                               <--- ServerKeyExchange.seg0        
+    ACK.ServerKeyExchange.seg0 --->                               
+                               <--- ServerKeyExchange.seg1        
+    ACK.ServerKeyExchange.seg1 --->                               
+                               <--- ServerKeyExchange.seg2        
+    ACK.ServerKeyExchange.seg2 --->                               
+                               <--- ServerKeyExchange.seg3        
+    ACK.ServerKeyExchange.seg3 --->                               
+                               <--- ServerKeyExchange.seg4        
+    ACK.ServerKeyExchange.seg4 --->                               
+                               <--- ServerKeyExchange.seg5        
+    ACK.ServerKeyExchange.seg5 --->                               
+                               <--- ServerKeyExchange.seg6        
+    ACK.ServerKeyExchange.seg6 --->                               
+                               <--- CertificateRequest.seg0       
+   ACK.CertificateRequest.seg0 --->                               
+                               <--- CertificateRequest.seg1       
+   ACK.CertificateRequest.seg1 --->                               
+                               <--- CertificateRequest.last       
+              Certificate.seg0 --->                               
+                               <--- ACK.Certificate.seg0          
+              Certificate.seg1 --->                               
+                               <--- ACK.Certificate.seg1          
+              Certificate.seg2 --->                               
+                               <--- ACK.Certificate.seg2          
+              Certificate.seg3 --->                               
+                               <--- ACK.Certificate.seg3          
+              Certificate.seg4 --->                               
+                               <--- ACK.Certificate.seg4          
+              Certificate.seg5 --->                               
+                               <--- ACK.Certificate.seg5          
+              Certificate.seg6 --->                               
+                               <--- ACK.Certificate.seg6          
+              Certificate.seg7 --->                               
+                               <--- ACK.Certificate.seg7          
+              Certificate.seg8 --->                               
+                               <--- ACK.Certificate.seg8          
+              Certificate.seg9 --->                               
+                               <--- ACK.Certificate.seg9          
+             Certificate.seg10 --->                               
+                               <--- ACK.Certificate.seg10         
+             Certificate.seg11 --->                               
+                               <--- ACK.Certificate.seg11         
+             Certificate.seg12 --->                               
+                               <--- ACK.Certificate.seg12         
+             Certificate.seg13 --->                               
+                               <--- ACK.Certificate.seg13         
+             Certificate.seg14 --->                               
+                               <--- ACK.Certificate.seg14         
+             Certificate.seg15 --->                               
+                               <--- ACK.Certificate.seg15         
+             Certificate.seg16 --->                               
+                               <--- ACK.Certificate.seg16         
+             Certificate.seg17 --->                               
+                               <--- ACK.Certificate.seg17         
+             Certificate.seg18 --->                               
+                               <--- ACK.Certificate.seg18         
+             Certificate.seg19 --->                               
+                               <--- ACK.Certificate.seg19         
+             Certificate.seg20 --->                               
+                               <--- ACK.Certificate.seg20         
+             Certificate.seg21 --->                               
+                               <--- ACK.Certificate.seg21         
+             Certificate.seg22 --->                               
+                               <--- ACK.Certificate.seg22         
+             Certificate.seg23 --->                               
+                               <--- ACK.Certificate.seg23         
+             Certificate.seg24 --->                               
+                               <--- ACK.Certificate.seg24         
+             Certificate.seg25 --->                               
+                               <--- ACK.Certificate.seg25         
+             Certificate.seg26 --->                               
+                               <--- ACK.Certificate.seg26         
+             Certificate.seg27 --->                               
+                               <--- ACK.Certificate.seg27         
+             Certificate.seg28 --->                               
+                               <--- ACK.Certificate.seg28         
+             Certificate.seg29 --->                               
+                               <--- ACK.Certificate.seg29         
+             Certificate.seg30 --->                               
+                               <--- ACK.Certificate.seg30         
+             Certificate.seg31 --->                               
+                               <--- ACK.Certificate.seg31         
+             Certificate.seg32 --->                               
+                               <--- ACK.Certificate.seg32         
+             Certificate.seg33 --->                               
+                               <--- ACK.Certificate.seg33         
+             Certificate.seg34 --->                               
+                               <--- ACK.Certificate.seg34         
+             Certificate.seg35 --->                               
+                               <--- ACK.Certificate.seg35         
+             Certificate.seg36 --->                               
+                               <--- ACK.Certificate.seg36         
+             Certificate.seg37 --->                               
+                               <--- ACK.Certificate.seg37         
+              Certificate.last --->                               
+        ClientKeyExchange.seg0 --->                               
+                               <--- ACK.ClientKeyExchange.seg0    
+        ClientKeyExchange.seg1 --->                               
+                               <--- ACK.ClientKeyExchange.seg1    
+        ClientKeyExchange.seg2 --->                               
+                               <--- ACK.ClientKeyExchange.seg2    
+        ClientKeyExchange.last --->                               
+        CertificateVerify.seg0 --->                               
+                               <--- ACK.CertificateVerify.seg0    
+        CertificateVerify.seg1 --->                               
+                               <--- ACK.CertificateVerify.seg1    
+        CertificateVerify.seg2 --->                               
+                               <--- ACK.CertificateVerify.seg2    
+        CertificateVerify.last --->                               
+                      Finished --->                               
+                               <--- Finished                      
+Iteration 0 with segment size 20 and BER 0.00030000000000000003 
+Ready to receive flight #1
+Ready to transmit flight #1
+Transmitting flight #1
+Adding message <ClientHello> to transmission queue
+Ready to receive flight #2
+Retransmitting flight #1 (1st retransmission, RTO = 1.0s)
+Adding message <ClientHello> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ClientHello>(L=87) (pl = 18.84678917488627)
+Lost message <ClientHello> sent from client1 to server1
+--> sending message <ClientHello>(L=87) (pl = 18.84678917488627)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientHello>(L=87) from client1
+Flight #1 has been received completely
+Ready to transmit flight #2
+Transmitting flight #2
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Ready to receive flight #3
+Retransmitting flight #2 (1st retransmission, RTO = 1.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>, <ServerKeyExchange>, <CertificateRequest>, <ServerHelloDone>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+Lost message <ServerKeyExchange> sent from server1 to client1
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>, <ServerKeyExchange>, <ServerHelloDone>
+ #Now I would send an ACK #
+['Certificate', 'ServerKeyExchange'] is missing
+['ServerHello', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+Lost message <ServerHelloDone> sent from server1 to client1
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [1, 0, 0, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+Retransmitting flight #2 (2nd retransmission, RTO = 2.0s)
+Adding message <ServerHello> to transmission queue
+Warning: Potential message congestion for server1 (N = 5, d = 1.000s)
+Adding message <Certificate> to transmission queue
+Warning: Potential message congestion for server1 (N = 6, d = 1.000s)
+Adding message <ServerKeyExchange> to transmission queue
+Warning: Potential message congestion for server1 (N = 7, d = 1.000s)
+Adding message <CertificateRequest> to transmission queue
+Warning: Potential message congestion for server1 (N = 8, d = 1.000s)
+Adding message <ServerHelloDone> to transmission queue
+Warning: Potential message congestion for server1 (N = 9, d = 1.000s)
+Guys This is where Retransmission Occurs(Inverse Peer)
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>, <ServerKeyExchange>, <ServerHelloDone>
+ #Now I would send an ACK #
+[] is missing
+['ServerHello'] is received
+HOPPAaaaaaa
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+Lost message <ServerKeyExchange> sent from server1 to client1
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>, <ServerKeyExchange>, <ServerHelloDone>
+ #Now I would send an ACK #
+['ServerHello', 'Certificate', 'ServerKeyExchange'] is missing
+['CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>, <ServerKeyExchange>
+ #Now I would send an ACK #
+['ServerHello', 'Certificate', 'ServerKeyExchange'] is missing
+['CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>, <ServerKeyExchange>
+ #Now I would send an ACK #
+[] is missing
+['ServerHello'] is received
+HOPPAaaaaaa
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [1, 0, 0, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 1, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 1, 2, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (3rd retransmission, RTO = 3.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+Lost message <ServerKeyExchange> sent from server1 to client1
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'ServerKeyExchange'] is missing
+['ServerHello', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 0, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'ServerKeyExchange'] is missing
+['ServerHello', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (4th retransmission, RTO = 4.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+Lost message <CertificateRequest> sent from server1 to client1
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'CertificateRequest'] is missing
+['ServerHello', 'ServerKeyExchange', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (5th retransmission, RTO = 5.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 1, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (6th retransmission, RTO = 6.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 1, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (7th retransmission, RTO = 7.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 1, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (8th retransmission, RTO = 8.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 1, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (9th retransmission, RTO = 9.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 1, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (10th retransmission, RTO = 10.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+Lost message <ServerKeyExchange> sent from server1 to client1
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'ServerKeyExchange'] is missing
+['ServerHello', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 0, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'ServerKeyExchange'] is missing
+['ServerHello', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (11th retransmission, RTO = 11.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 1, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (12th retransmission, RTO = 12.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 1, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (13th retransmission, RTO = 13.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+Lost message <ServerKeyExchange> sent from server1 to client1
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'ServerKeyExchange'] is missing
+['ServerHello', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 0, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'ServerKeyExchange'] is missing
+['ServerHello', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (14th retransmission, RTO = 14.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+Lost message <ServerHello> sent from server1 to client1
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['ServerHello', 'Certificate'] is missing
+['ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [0, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['ServerHello', 'Certificate'] is missing
+['ServerKeyExchange', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [0, 0, 1, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['ServerHello', 'Certificate'] is missing
+['ServerKeyExchange', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (15th retransmission, RTO = 15.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ServerHello', 'ServerKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+Lost message <CertificateRequest> sent from server1 to client1
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'CertificateRequest'] is missing
+['ServerHello', 'ServerKeyExchange', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+Retransmitting flight #2 (16th retransmission, RTO = 16.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+Lost message <ServerHello> sent from server1 to client1
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <Certificate>(L=800) from server1
+Flight #2 has been received completely
+Ready to transmit flight #3
+Transmitting flight #3
+Adding message <Certificate> to transmission queue
+Adding message <ClientKeyExchange> to transmission queue
+Adding message <CertificateVerify> to transmission queue
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+Ready to receive flight #4
+Retransmitting flight #3 (1st retransmission, RTO = 1.0s)
+Adding message <Certificate> to transmission queue
+Adding message <ClientKeyExchange> to transmission queue
+Adding message <CertificateVerify> to transmission queue
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Received message <ServerKeyExchange> from earlier flight #2. Expecting one of <ChangeCipherSpec>,, <Finished>,
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Received message <CertificateRequest> from earlier flight #2. Expecting one of <ChangeCipherSpec>,, <Finished>,
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Received message <ServerHelloDone> from earlier flight #2. Expecting one of <ChangeCipherSpec>,, <Finished>,
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+Lost message <ClientKeyExchange> sent from client1 to server1
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+Lost message <CertificateVerify> sent from client1 to server1
+Retransmitting flight #3 (2nd retransmission, RTO = 2.0s)
+Adding message <Certificate> to transmission queue
+Warning: Potential message congestion for client1 (N = 8, d = 1.000s)
+Adding message <ClientKeyExchange> to transmission queue
+Warning: Potential message congestion for client1 (N = 9, d = 1.000s)
+Adding message <CertificateVerify> to transmission queue
+Warning: Potential message congestion for client1 (N = 10, d = 1.000s)
+Adding message <ChangeCipherSpec> to transmission queue
+Warning: Potential message congestion for client1 (N = 11, d = 1.000s)
+Adding message <Finished> to transmission queue
+Warning: Potential message congestion for client1 (N = 12, d = 1.000s)
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>, <ClientKeyExchange>, <CertificateVerify>, <Finished>
+ #Now I would send an ACK #
+['Certificate', 'ClientKeyExchange', 'CertificateVerify'] is missing
+['ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 1, 0], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>, <ClientKeyExchange>, <CertificateVerify>
+ #Now I would send an ACK #
+['Certificate', 'ClientKeyExchange', 'CertificateVerify'] is missing
+['ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 1, 1], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+Messages still missing from flight #3: <Certificate>, <CertificateVerify>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+Lost message <CertificateVerify> sent from client1 to server1
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 1, 1], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>, <CertificateVerify>
+ #Now I would send an ACK #
+['Certificate', 'CertificateVerify'] is missing
+['ClientKeyExchange', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 2, 1], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>, <CertificateVerify>
+ #Now I would send an ACK #
+['Certificate', 'CertificateVerify'] is missing
+['ClientKeyExchange', 'ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 2, 2], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+Messages still missing from flight #3: <Certificate>, <CertificateVerify>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+Lost message <CertificateVerify> sent from client1 to server1
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 2, 0, 2, 2], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>, <CertificateVerify>
+ #Now I would send an ACK #
+['Certificate', 'CertificateVerify'] is missing
+['ClientKeyExchange', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 2, 0, 3, 2], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>, <CertificateVerify>
+ #Now I would send an ACK #
+['Certificate', 'CertificateVerify'] is missing
+['ClientKeyExchange', 'ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+Retransmitting flight #3 (3rd retransmission, RTO = 3.0s)
+Adding message <Certificate> to transmission queue
+Adding message <ClientKeyExchange> to transmission queue
+Adding message <CertificateVerify> to transmission queue
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+Messages still missing from flight #3: <Certificate>, <CertificateVerify>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0]]
+<-- received message <CertificateVerify>(L=97) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify'] is received
+HOPPAaaaaaa
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 1, 1, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 1, 1, 1, 0], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+Retransmitting flight #3 (4th retransmission, RTO = 4.0s)
+Adding message <Certificate> to transmission queue
+Adding message <ClientKeyExchange> to transmission queue
+Adding message <CertificateVerify> to transmission queue
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <Certificate>(L=800) from client1
+Flight #3 has been received completely
+Ready to transmit flight #4
+Transmitting flight #4
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from server1
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [1, 0]]
+<-- received message <Finished>(L=37) from server1
+Communication sequence completed at time 127.549s
+127.5488
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [1, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+[[1], [0, 0, 0, 0, 0], [1, 1, 0, 0, 0], [0, 0]]
+<-- received message <CertificateVerify>(L=97) from client1
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [1, 1, 1, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [1, 1, 1, 1, 0], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+4
+handshaketime Client 127.5488
+HSduration:127.5488
+Finished
+Iteration 1 with segment size 20 and BER 0.00030000000000000003 
+Ready to receive flight #1
+Ready to transmit flight #1
+Transmitting flight #1
+Adding message <ClientHello> to transmission queue
+Ready to receive flight #2
+Retransmitting flight #1 (1st retransmission, RTO = 1.0s)
+Adding message <ClientHello> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ClientHello>(L=87) (pl = 18.84678917488627)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientHello>(L=87) from client1
+Flight #1 has been received completely
+Ready to transmit flight #2
+Transmitting flight #2
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Ready to receive flight #3
+Retransmitting flight #2 (1st retransmission, RTO = 1.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <Certificate>, <ServerKeyExchange>, <CertificateRequest>, <ServerHelloDone>
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+[[0], [1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <Certificate>(L=800) from server1
+Messages still missing from flight #2: <ServerKeyExchange>, <CertificateRequest>, <ServerHelloDone>
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+Lost message <ServerKeyExchange> sent from server1 to client1
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [1, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <ServerKeyExchange>, <ServerHelloDone>
+ #Now I would send an ACK #
+['ServerKeyExchange'] is missing
+['ServerHello', 'Certificate', 'CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [1, 1, 0, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <ServerKeyExchange>
+ #Now I would send an ACK #
+['ServerKeyExchange'] is missing
+['ServerHello', 'Certificate', 'CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [1, 1, 0, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+Retransmitting flight #2 (2nd retransmission, RTO = 2.0s)
+Adding message <ServerHello> to transmission queue
+Warning: Potential message congestion for server1 (N = 5, d = 1.000s)
+Adding message <Certificate> to transmission queue
+Warning: Potential message congestion for server1 (N = 6, d = 1.000s)
+Adding message <ServerKeyExchange> to transmission queue
+Warning: Potential message congestion for server1 (N = 7, d = 1.000s)
+Adding message <CertificateRequest> to transmission queue
+Warning: Potential message congestion for server1 (N = 8, d = 1.000s)
+Adding message <ServerHelloDone> to transmission queue
+Warning: Potential message congestion for server1 (N = 9, d = 1.000s)
+Guys This is where Retransmission Occurs(Inverse Peer)
+<-- received message <ServerHello>(L=107) from server1
+Messages still missing from flight #2: <ServerKeyExchange>
+ #Now I would send an ACK #
+[] is missing
+['ServerHello'] is received
+HOPPAaaaaaa
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+Lost message <ServerKeyExchange> sent from server1 to client1
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Messages still missing from flight #2: <ServerKeyExchange>
+ #Now I would send an ACK #
+['ServerHello', 'Certificate', 'ServerKeyExchange'] is missing
+['CertificateRequest'] is received
+HOPPAaaaaaa
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Messages still missing from flight #2: <ServerKeyExchange>
+ #Now I would send an ACK #
+['ServerHello', 'Certificate', 'ServerKeyExchange'] is missing
+['CertificateRequest', 'ServerHelloDone'] is received
+HOPPAaaaaaa
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+Lost message <ServerHello> sent from server1 to client1
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from server1 to client1
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [0, 0, 0, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Flight #2 has been received completely
+Ready to transmit flight #3
+Transmitting flight #3
+Adding message <Certificate> to transmission queue
+Warning: Potential message congestion for client1 (N = 2, d = 2.809s)
+Adding message <ClientKeyExchange> to transmission queue
+Warning: Potential message congestion for client1 (N = 3, d = 2.809s)
+Adding message <CertificateVerify> to transmission queue
+Warning: Potential message congestion for client1 (N = 4, d = 2.809s)
+Adding message <ChangeCipherSpec> to transmission queue
+Warning: Potential message congestion for client1 (N = 5, d = 2.809s)
+Adding message <Finished> to transmission queue
+Warning: Potential message congestion for client1 (N = 6, d = 2.809s)
+Ready to receive flight #4
+Retransmitting flight #3 (1st retransmission, RTO = 1.0s)
+Adding message <Certificate> to transmission queue
+Warning: Potential message congestion for client1 (N = 7, d = 2.809s)
+Adding message <ClientKeyExchange> to transmission queue
+Warning: Potential message congestion for client1 (N = 8, d = 2.809s)
+Adding message <CertificateVerify> to transmission queue
+Warning: Potential message congestion for client1 (N = 9, d = 2.809s)
+Adding message <ChangeCipherSpec> to transmission queue
+Warning: Potential message congestion for client1 (N = 10, d = 2.809s)
+Adding message <Finished> to transmission queue
+Warning: Potential message congestion for client1 (N = 11, d = 2.809s)
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [0, 0, 1, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Received message <CertificateRequest> from earlier flight #2. Expecting one of <ChangeCipherSpec>,, <Finished>,
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+Lost message <ServerHelloDone> sent from server1 to client1
+--> sending message <ClientHello>(L=87) (pl = 18.84678917488627)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientHello>(L=87) from client1
+Received message <ClientHello> from earlier flight #1. Expecting one of <Certificate>,, <ClientKeyExchange>,, <CertificateVerify>,, <ChangeCipherSpec>,, <Finished>,
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+Retransmitting flight #2 (3rd retransmission, RTO = 3.0s)
+Adding message <ServerHello> to transmission queue
+Adding message <Certificate> to transmission queue
+Adding message <ServerKeyExchange> to transmission queue
+Adding message <CertificateRequest> to transmission queue
+Adding message <ServerHelloDone> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ServerHello>(L=107) (pl = 22.650689861206562)
+[[0], [0, 0, 1, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHello>(L=107) from server1
+Received message <ServerHello> from earlier flight #2. Expecting one of <ChangeCipherSpec>,, <Finished>,
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+[[0], [0, 0, 1, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+Retransmitting flight #3 (2nd retransmission, RTO = 2.0s)
+Adding message <Certificate> to transmission queue
+Warning: Potential message congestion for client1 (N = 10, d = 1.000s)
+Adding message <ClientKeyExchange> to transmission queue
+Warning: Potential message congestion for client1 (N = 11, d = 1.000s)
+Adding message <CertificateVerify> to transmission queue
+Warning: Potential message congestion for client1 (N = 12, d = 1.000s)
+Adding message <ChangeCipherSpec> to transmission queue
+Warning: Potential message congestion for client1 (N = 13, d = 1.000s)
+Adding message <Finished> to transmission queue
+Warning: Potential message congestion for client1 (N = 14, d = 1.000s)
+Guys This is where Retransmission Occurs(Inverse Peer)
+<-- received message <Certificate>(L=800) from server1
+Received message <Certificate> from earlier flight (warning: multiple flights possible).
+Received message <Certificate> from earlier flight (warning: multiple flights possible). Expecting one of <ChangeCipherSpec>,, <Finished>,
+--> sending message <ServerKeyExchange>(L=165) (pl = 32.70332874696853)
+[[0], [0, 0, 1, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerKeyExchange>(L=165) from server1
+Received message <ServerKeyExchange> from earlier flight #2. Expecting one of <ChangeCipherSpec>,, <Finished>,
+--> sending message <CertificateRequest>(L=71) (pl = 15.66941413313334)
+[[0], [0, 0, 1, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <CertificateRequest>(L=71) from server1
+Received message <CertificateRequest> from earlier flight #2. Expecting one of <ChangeCipherSpec>,, <Finished>,
+--> sending message <ServerHelloDone>(L=25) (pl = 5.8243943953948385)
+[[0], [0, 0, 1, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ServerHelloDone>(L=25) from server1
+Received message <ServerHelloDone> from earlier flight #2. Expecting one of <ChangeCipherSpec>,, <Finished>,
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+Messages still missing from flight #3: <Certificate>, <CertificateVerify>, <ChangeCipherSpec>, <Finished>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0]]
+<-- received message <CertificateVerify>(L=97) from client1
+Messages still missing from flight #3: <Certificate>, <ChangeCipherSpec>, <Finished>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify'] is received
+HOPPAaaaaaa
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 1, 1, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>, <Finished>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 1, 1, 1, 0], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [0, 1, 1, 1, 1], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+[[1], [0, 0, 0, 0, 0], [0, 2, 1, 1, 1], [0, 0]]
+<-- received message <CertificateVerify>(L=97) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify'] is received
+HOPPAaaaaaa
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 2, 2, 1, 1], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 2, 2, 2, 1], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+Retransmitting flight #3 (3rd retransmission, RTO = 3.0s)
+Adding message <Certificate> to transmission queue
+Warning: Potential message congestion for client1 (N = 5, d = 2.000s)
+Adding message <ClientKeyExchange> to transmission queue
+Warning: Potential message congestion for client1 (N = 6, d = 2.000s)
+Adding message <CertificateVerify> to transmission queue
+Warning: Potential message congestion for client1 (N = 7, d = 2.000s)
+Adding message <ChangeCipherSpec> to transmission queue
+Warning: Potential message congestion for client1 (N = 8, d = 2.000s)
+Adding message <Finished> to transmission queue
+Warning: Potential message congestion for client1 (N = 9, d = 2.000s)
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0]]
+<-- received message <CertificateVerify>(L=97) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify'] is received
+HOPPAaaaaaa
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 1, 1, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 1, 1, 1, 0], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+Lost message <ClientKeyExchange> sent from client1 to server1
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+[[1], [0, 0, 0, 0, 0], [0, 1, 1, 1, 1], [0, 0]]
+<-- received message <CertificateVerify>(L=97) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify'] is received
+HOPPAaaaaaa
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 1, 2, 1, 1], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 1, 2, 2, 1], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+Retransmitting flight #3 (4th retransmission, RTO = 4.0s)
+Adding message <Certificate> to transmission queue
+Adding message <ClientKeyExchange> to transmission queue
+Adding message <CertificateVerify> to transmission queue
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0]]
+<-- received message <CertificateVerify>(L=97) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify'] is received
+HOPPAaaaaaa
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 1, 1, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 1, 1, 1, 0], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange', 'CertificateVerify', 'ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+Retransmitting flight #3 (5th retransmission, RTO = 5.0s)
+Adding message <Certificate> to transmission queue
+Adding message <ClientKeyExchange> to transmission queue
+Adding message <CertificateVerify> to transmission queue
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+Lost message <CertificateVerify> sent from client1 to server1
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'CertificateVerify'] is missing
+['ClientKeyExchange', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+Lost message <Finished> sent from client1 to server1
+Retransmitting flight #3 (6th retransmission, RTO = 6.0s)
+Adding message <Certificate> to transmission queue
+Adding message <ClientKeyExchange> to transmission queue
+Adding message <CertificateVerify> to transmission queue
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+Lost message <CertificateVerify> sent from client1 to server1
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'CertificateVerify'] is missing
+['ClientKeyExchange', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 1, 0], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'CertificateVerify'] is missing
+['ClientKeyExchange', 'ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+Retransmitting flight #3 (7th retransmission, RTO = 7.0s)
+Adding message <Certificate> to transmission queue
+Adding message <ClientKeyExchange> to transmission queue
+Adding message <CertificateVerify> to transmission queue
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+Lost message <Certificate> sent from client1 to server1
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate'] is missing
+['ClientKeyExchange'] is received
+HOPPAaaaaaa
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+Lost message <CertificateVerify> sent from client1 to server1
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'CertificateVerify'] is missing
+['ClientKeyExchange', 'ChangeCipherSpec'] is received
+HOPPAaaaaaa
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [0, 1, 0, 1, 0], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+Messages still missing from flight #3: <Certificate>
+ #Now I would send an ACK #
+['Certificate', 'CertificateVerify'] is missing
+['ClientKeyExchange', 'ChangeCipherSpec', 'Finished'] is received
+HOPPAaaaaaa
+Retransmitting flight #3 (8th retransmission, RTO = 8.0s)
+Adding message <Certificate> to transmission queue
+Adding message <ClientKeyExchange> to transmission queue
+Adding message <CertificateVerify> to transmission queue
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+Guys This is where Retransmission Occurs(Inverse Peer)
+--> sending message <Certificate>(L=800) (pl = 85.34352630392411)
+[[1], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <Certificate>(L=800) from client1
+Flight #3 has been received completely
+Ready to transmit flight #4
+Transmitting flight #4
+Adding message <ChangeCipherSpec> to transmission queue
+Adding message <Finished> to transmission queue
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[0], [0, 0, 1, 1, 1], [0, 0, 0, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from server1
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[0], [0, 0, 1, 1, 1], [0, 0, 0, 0, 0], [1, 0]]
+<-- received message <Finished>(L=37) from server1
+Communication sequence completed at time 31.491s
+31.491
+--> sending message <ClientKeyExchange>(L=91) (pl = 19.622248163915714)
+[[1], [0, 0, 0, 0, 0], [1, 0, 0, 0, 0], [0, 0]]
+<-- received message <ClientKeyExchange>(L=91) from client1
+--> sending message <CertificateVerify>(L=97) (pl = 20.771565250406397)
+[[1], [0, 0, 0, 0, 0], [1, 1, 0, 0, 0], [0, 0]]
+<-- received message <CertificateVerify>(L=97) from client1
+--> sending message <ChangeCipherSpec>(L=13) (pl = 3.0722839785543465)
+[[1], [0, 0, 0, 0, 0], [1, 1, 1, 0, 0], [0, 0]]
+<-- received message <ChangeCipherSpec>(L=13) from client1
+--> sending message <Finished>(L=37) (pl = 8.49836295501044)
+[[1], [0, 0, 0, 0, 0], [1, 1, 1, 1, 0], [0, 0]]
+<-- received message <Finished>(L=37) from client1
+4
+handshaketime Client 31.491
+HSduration:31.491
+Finished
